@@ -23,11 +23,11 @@ public class Ville {    //déclaration des variables
     // Variable privée qui comptera aussi les instances
     private static int nbreInstancesBis = 0;
     // Autres variables
-    private String nomVille;    //Nom de la ville
-    private String nomPays;     //Nom du Pays
-    private long nbrHabitants;   //Nombre d'habitants
-    private int dateRessencement; //Date du recencement pris en compte pour la population
-    private char categorie;        //catégorie de la ville en focntin de la population
+    String nomVille;    //Nom de la ville
+    protected String nomPays;     //Nom du Pays
+    protected long nbrHabitants;   //Nombre d'habitants
+    protected int dateRessencement; //Date du recencement pris en compte pour la population
+    protected char categorie;        //catégorie de la ville en focntin de la population
     
     //Constructeur par défaut (instanciation sans paramètres)
     public Ville(){

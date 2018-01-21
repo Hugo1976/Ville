@@ -76,6 +76,7 @@ public class ClasseMain {
     
     System.out.println(v1.comparer(v2));
     Capitale cap = new Capitale();
+    System.out.println("test debogage");
     System.out.println(cap.decrisToi());
     }
     
